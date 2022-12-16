@@ -3,7 +3,7 @@ from presentation_card import presentation_card
 from portfolio_carousel import portfolio_carousel
 from PIL import Image
 
-img_cabeçalho = Image.open(r"images\head.png")
+# img_cabeçalho = Image.open(r"images\head.png")
   
 title = "Work"     
 subtitle =  '''Check my commercioal and non commercial projects.
@@ -14,7 +14,7 @@ cards = [["images/zenk.jpg", "ZENK project", "Web Scraping | RPA | Data Anlysis"
         
 def main():
    
-    st.image(img_cabeçalho, use_column_width=True)
+    # st.image(img_cabeçalho, use_column_width=True)
 
     value = presentation_card(image_path="images/profile.png",
                               name="Abraão Andrade",
