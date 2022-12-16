@@ -3,7 +3,7 @@ from presentation_card import presentation_card
 from portfolio_carousel import portfolio_carousel
 from PIL import Image
 
-img_cabeçalho = Image.open(r"images\cabeçalho.png")
+img_cabeçalho = Image.open(r"images\head.png")
   
 title = "Work"     
 subtitle =  '''Check my commercioal and non commercial projects.
